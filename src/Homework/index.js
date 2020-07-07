@@ -9,8 +9,8 @@ export default function electronics () {
         <div className="bg-dark">
             <Header />
             <Carousel />
-            <ListProduct />
-            <ListProduct />
+            <ListProduct itemType="smartphone" />
+            <ListProduct itemType="laptop" />
             <Promotion />
         </div>
     ); 

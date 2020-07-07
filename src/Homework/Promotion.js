@@ -10,7 +10,7 @@ export default function Promotion() {
             <div className="container">
               <img
                 src="./images/promotion_1.png"
-                alt
+                alt ="Card"
                 style={{ maxWidth: "100%" }}
               />
             </div>
@@ -19,7 +19,7 @@ export default function Promotion() {
             <div className="container">
               <img
                 src="./images/promotion_2.png"
-                alt
+                alt ="Card"
                 style={{ maxWidth: "100%" }}
               />
             </div>
@@ -28,7 +28,7 @@ export default function Promotion() {
             <div className="container">
               <img
                 src="./images/promotion_3.jpg"
-                alt
+                alt ="Card"
                 style={{ maxWidth: "100%" }}
               />
             </div>
