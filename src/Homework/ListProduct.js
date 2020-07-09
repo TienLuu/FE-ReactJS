@@ -79,8 +79,9 @@ export default function ListProduct({ itemType }) {
       <div id={electronics[i].id} className={electronics[i].cssStyle}>
         <h1>{electronics[i].title}</h1>
         <div className="row">
-          {electronics[i].product.map((item) => (
+          {electronics[i].product.map((item, i) => (
             <ItemProduct
+              key={i}
               imageLink={item.imageLink}
               title={item.title}
               text={item.text}
