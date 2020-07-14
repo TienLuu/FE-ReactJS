@@ -1,12 +1,14 @@
 import React from 'react';
-import Cinema from './Homework-d2';
+import LiftingStateUp from './Homeword-d3';
+// import Cinema from './Homework-d2';
 // import Homework from './Homework';
 
 function App() {
   return (
     <div>
       {/* <Homework /> */}
-      <Cinema />
+      {/* <Cinema /> */}
+      <LiftingStateUp />
     </div>
   );
 }
